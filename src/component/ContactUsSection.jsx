@@ -14,7 +14,7 @@ const ContactUsSection = () => {
         <div className="space-y-6 p-8 ">
           <div className="flex items-center gap-3 mb-2">
             <h3 className="text-xl font-semibold">Send us a message</h3>
-            <Send className="text-blue-600 w-6 h-6" />
+            <Send className="text-primary w-6 h-6" />
           </div>
           <p className="text-gray-600">
             Feel free to reach out through the contact form or find our contact information below.
@@ -24,15 +24,15 @@ const ContactUsSection = () => {
 
           <div className="space-y-4 pt-4">
             <div className="flex items-center gap-3 text-gray-700">
-              <Mail className="w-5 h-5 text-blue-500" />
+              <Mail className="w-5 h-5 text-primary" />
               <span>Contact@GreatStack.dev</span>
             </div>
             <div className="flex items-center gap-3 text-gray-700">
-              <Phone className="w-5 h-5 text-blue-500" />
+              <Phone className="w-5 h-5 text-primary" />
               <span>+1 123-456-7890</span>
             </div>
             <div className="flex items-center gap-3 text-gray-700">
-              <MapPin className="w-5 h-5 text-blue-500" />
+              <MapPin className="w-5 h-5 text-primary" />
               <span>77 Massachusetts Ave, Cambridge, MA 02139, United States</span>
             </div>
           </div>
@@ -85,7 +85,7 @@ const ContactUsSection = () => {
 
        
 
-          <Button label='Send now' className='bg-blue-600 text-white' size='lg' icon={<MoveRight  size={20} strokeWidth={1}  />}/>
+          <Button label='Send now' className='bg-primary text-white' size='lg' icon={<MoveRight  size={20} strokeWidth={1}  />}/>
         </form>
       </div>
     </section>

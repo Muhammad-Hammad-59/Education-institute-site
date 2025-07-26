@@ -21,7 +21,7 @@ const HeroSection = () => {
           </p>
         
 
-          <Button label="Explor more" size="md" className="bg-primary" icon={<MoveRight  size={20} strokeWidth={1}  />}  />
+          <Button label="Explor more" size="lg" className="bg-white text-black" icon={<MoveRight  size={20} strokeWidth={1}  />}  />
         </div>
       </div>
     </div>

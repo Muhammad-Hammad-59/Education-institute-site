@@ -41,7 +41,7 @@ body {
 :root {
   --background: oklch(0.95 0.02 240);
   --foreground: oklch(0.2 0.02 240);
-  --primary: oklch(0.65 0.15 260);
+  --primary: #212EA0;
   --secondary: oklch(0.75 0.1 200);
   --accent: oklch(0.7 0.2 320);
   --card: oklch(0.98 0.01 240);
@@ -51,7 +51,7 @@ body {
 .dark {
   --background: oklch(0.15 0.02 240);
   --foreground: oklch(0.95 0.02 240);
-  --primary: oklch(0.7 0.15 260);
+  --primary: #212EA0;
   --secondary: oklch(0.8 0.1 200);
   --accent: oklch(0.75 0.2 320);
   --card: oklch(0.2 0.01 240);

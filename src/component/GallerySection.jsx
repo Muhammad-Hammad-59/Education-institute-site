@@ -149,6 +149,9 @@ export default function GallerySection() {
                 src={src}
                 alt={`Gallery ${idx + 1}`}
                 fill
+                priority={false}
+                placeholder='blur'
+                blurDataURL=' '
                 className="object-cover transition-transform hover:scale-105"
               />
             </div>

@@ -23,7 +23,7 @@ const Navbar = () => {
     <div
       className={clsx(
         'navbar fixed top-0 z-50 transition-all duration-300',
-        isScrolled ? 'bg-blue-500 text-subheading' :'bg-none  shadow-sm',
+        isScrolled ? 'bg-primary text-subheading' :'bg-none  shadow-sm',
          'px-4 md:px-10 lg:px-20 '
       )}
     >
@@ -33,7 +33,7 @@ const Navbar = () => {
     
       {/* Part 1 - Logo */}
       <div className="flex-1">
-        <Link href="/" className="text-xl text-white font-bold flex items-center gap-2">
+        <Link href="/" className="text-4xl text-white font-bold flex items-center gap-2">
           <GraduationCap size={48}/>
           <span className='hidden sm:block'>EduCorp</span> 
         </Link>
@@ -87,7 +87,7 @@ const Navbar = () => {
           <li><Link href="/campus">Campus</Link></li>
           <li><Link href="/testimonials">Testimonials</Link></li>
           <li><Link href="/testimonials">Contact us</Link></li>
-          <li> <ThemeToggle/></li>
+         
         </ul>
       </div>
 

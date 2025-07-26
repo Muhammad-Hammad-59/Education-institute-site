@@ -13,7 +13,7 @@ const truncateWords = (tit, maxWords) => {
 
 
   return (
-    <div className="card bg-blue-500 shadow-md px-6 py-6 rounded-lg min-h-[200px] flex flex-col  transition duration-300 hover:shadow-lg">
+    <div className="card bg-background shadow-lg px-6 py-6 rounded-lg min-h-[200px] flex flex-col  transition duration-300 hover:shadow-lg">
       <div className="flex items-start gap-4 mb-4 ">
         <div className="avatar">
         <div className='w-20 rounded-full'>

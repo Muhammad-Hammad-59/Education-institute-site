@@ -15,7 +15,7 @@ export default function Button({ label = 'Explore more', size = 'md', className 
   return (
     <button
       className={clsx(
-        'btn text-black font-normal border-none rounded-3xl gap-2',
+        'btn  font-normal border-none rounded-3xl gap-2',
         sizeClasses[size],
         className
       )}
